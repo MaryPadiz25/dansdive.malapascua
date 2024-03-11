@@ -59,9 +59,9 @@ header{
     background-size: 100%;
  }
  .home{     position: fixed;
-            margin: 7.5vw 20vw;
-            height:2.5vw;
-            width: 6vw;
+            margin: 7.5vw 18vw;
+            min-height:2.5vw;
+            min-width: 6vw;
             border-color:rgb(116, 255, 141);
             border-radius: .1vw;
             border: 15px 90px;
@@ -83,9 +83,9 @@ header{
     opacity: 0.5;
 }
 .about{     position: fixed;
-            margin:7.5vw 27vw;
-            height:2.5vw;
-            width: 6vw;
+            margin:7.5vw 25.5vw;
+            min-height:2.5vw;
+            min-width: 6vw;
             cursor: pointer;
             transition: opacity 0.15s;
             box-shadow: 0px 0px 0px 0px;
@@ -111,9 +111,9 @@ opacity: 0.5;
 
 .link-s{  
             position: fixed;
-            margin:7.5vw 35vw;
-            height:2.5vw;
-            width: 6vw;
+            margin:7.5vw 33vw;
+            min-height:2.5vw;
+            min-width: 6vw;
             cursor: pointer;
             transition: opacity 0.15s;
             box-shadow: 0px 0px 0px 0px;
@@ -136,7 +136,7 @@ opacity: 0.5;
 .dropdown{
     position:relative;}
 .dropdown-s {
-    margin:9vw 33.5vw;
+    margin:9vw 32.5vw;
     position: absolute;
     top: calc(100% + .25rem);
     background-color: rgb(103, 239, 121);
@@ -163,9 +163,9 @@ opacity: 0.5;
 }
 .link-book{  
             position: fixed;
-            margin:7.5vw 44vw;
-            height:2.5vw;
-            width: 11vw;
+            margin:7.5vw 42.5vw;
+            min-height:2.5vw;
+            min-width: 11vw;
             cursor: pointer;
             transition: opacity 0.15s;
             box-shadow: 0px 0px 0px 0px;
@@ -188,7 +188,7 @@ opacity: 0.5;
 .dropdown{
     position: relative;}
 .dropdown-book {
-    margin:9vw 43.5vw;
+    margin:9vw 42.5vw;
     position: absolute;
     top: calc(100% + .25rem);
     background-color: rgb(103, 239, 121);
@@ -230,9 +230,9 @@ opacity: 0.5;
 }
 
 .gallery{position: fixed;
-    margin: 7.5vw 58vw;
-    height:2.5vw;
-    width: 8vw;
+    margin: 7.5vw 57.5vw;
+    min-height:2.5vw;
+    min-width: 8vw;
     border:none;
     background: none;
     cursor: pointer;
@@ -254,8 +254,8 @@ opacity: 0.5;
 }
 .contact{position: fixed;
     margin: 7.5vw 68vw;
-    height:2.5vw;
-    width: 9vw;
+    min-height:2.5vw;
+    min-width: 9vw;
     border:none;
     background: none;
     cursor: pointer;
@@ -276,9 +276,9 @@ opacity: 0.5;
 opacity: 0.5;
 }
 .booking{     position: fixed;
-    margin: 7.5vw 80vw;
-    height:2.5vw;
-    width: 11vw;
+    margin: 7.5vw 82vw;
+    min-height:2.5vw;
+    min-width: 11vw;
     border-color:rgb(116, 255, 141);
     border-radius: 2vw;
     border: 15px 90px;
