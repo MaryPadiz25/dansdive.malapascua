@@ -59,7 +59,7 @@ header{
     background-size: 100%;
  }
  .home{     position: fixed;
-            margin: 7.5vw 18vw;
+            margin: 7.5vw 16vw;
             min-height:2.5vw;
             min-width: 6vw;
             border-color:rgb(116, 255, 141);
@@ -83,7 +83,7 @@ header{
     opacity: 0.5;
 }
 .about{     position: fixed;
-            margin:7.5vw 25.5vw;
+            margin:7.5vw 24vw;
             min-height:2.5vw;
             min-width: 6vw;
             cursor: pointer;
@@ -111,7 +111,7 @@ opacity: 0.5;
 
 .link-s{  
             position: fixed;
-            margin:7.5vw 33vw;
+            margin:7.5vw 32vw;
             min-height:2.5vw;
             min-width: 6vw;
             cursor: pointer;
@@ -163,7 +163,7 @@ opacity: 0.5;
 }
 .link-book{  
             position: fixed;
-            margin:7.5vw 42.5vw;
+            margin:7.5vw 42vw;
             min-height:2.5vw;
             min-width: 11vw;
             cursor: pointer;
@@ -276,7 +276,7 @@ opacity: 0.5;
 opacity: 0.5;
 }
 .booking{     position: fixed;
-    margin: 7.5vw 84vw;
+    margin: 7.5vw 84.5vw;
     min-height:2.5vw;
     min-width: 11vw;
     border-color:rgb(116, 255, 141);
