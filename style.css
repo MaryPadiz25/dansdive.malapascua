@@ -253,7 +253,7 @@ opacity: 0.5;
 opacity: 0.5;
 }
 .contact{position: fixed;
-    margin: 7.5vw 68vw;
+    margin: 7.5vw 69.5vw;
     min-height:2.5vw;
     min-width: 9vw;
     border:none;
@@ -276,7 +276,7 @@ opacity: 0.5;
 opacity: 0.5;
 }
 .booking{     position: fixed;
-    margin: 7.5vw 82vw;
+    margin: 7.5vw 84vw;
     min-height:2.5vw;
     min-width: 11vw;
     border-color:rgb(116, 255, 141);
