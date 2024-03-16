@@ -1,7 +1,8 @@
 <body>
     <div class="background">
         <div class="booking-form">
-            <a href="index.html"><button class="home">HOME</button></a>
+            
+            <a href="index.html"><button class="home">HOME</button></a> <img src="logo.jpg" class="blogo">
             <form action="https://api.web3forms.com/submit" method="POST">
                 <input type="hidden" name="access_key" value="d5f79ae2-de6a-4305-89ed-542680cdd230">
                 <label for="name">Name:</label>
@@ -46,17 +47,11 @@ body.html{
     font-family: 'poppins', san-serif;
     
 }
+.blogo{
+    float: right;
+    size:5vw 5vw;
+    border-radius:5vw;}
 
-.background{
-    background: url(logo.jpg) no-repeat;
-  padding: 5px 5px;
-  background-size: 10vw 10vw;
-  min-width: 100vw;
-min-height: 100%;
-border-radius: 10vw;
-margin-top: 5vw;
-    margin-left: 20vw;
-}
 .booking-form{
     background-color: aqua;
    margin: 14vw 32vw;
